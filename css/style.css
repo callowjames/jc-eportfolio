@@ -69,6 +69,8 @@ hr {
 	right:15px;
 }
 
+
+
 #introCon {
 	position:absolute; height:100%; width:100%;
 	display: table;
@@ -78,6 +80,10 @@ hr {
 	display: table-cell;
 	vertical-align: middle;
 	text-align:center;
+}
+
+#logoFade {
+  display: none;
 }
 
 #logo {
