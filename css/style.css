@@ -297,27 +297,39 @@ hr {
 	color: #00ccff;
 }
 
-@media (min-width:768px) {
-	.modal .modal-dialog { width: 75%;}
+/*.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
+
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll!important;
+    }
 }
 
-@media (min-width:1025px) {
-	.modal .modal-dialog { width: 75%;}
+@media (min-width:1024px) {
+  .modal .modal-dialog { width: 75%;}
 
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-		font-size: 16px;
-	}
-	.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-		font-size: 22px;
-	}
+    font-size: 16px;
+  }
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 22px;
+  }
 
-	#logo {
-		font-size: 4.0em;
-	}
+  #logo {
+    font-size: 4.0em;
+  }
 
-	#sublogo {
-		font-size: 2.5em;
-	}
+  #sublogo {
+    font-size: 2.5em;
+  }
+}
+
+@media (min-width:1px) {
 
 	#intro {
 		background: url(../images/kyoto1.jpg) 50% 0 repeat fixed;
