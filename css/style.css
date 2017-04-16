@@ -26,9 +26,12 @@
     font-style: italic;
 }
 
+html {
+  height: 100vh;
+  min-height: 100%;
+}
+
 html, body {
-	min-height: 100%;
-	height: 100%;
 	text-align: center;
 	font-family: "Helvetica Neue", "Liberation Sans", Arimo, Helvetica, Arial, "Lucida Grande", sans-serif!important;
 	font-weight: 200!important;
@@ -68,8 +71,6 @@ hr {
 	bottom:0;
 	right:15px;
 }
-
-
 
 #introCon {
 	position:absolute; height:100%; width:100%;
@@ -217,14 +218,14 @@ hr {
 	outline: none;
 }
 
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
 	.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
 		font-size: 16px;
 	}
 	.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
 		font-size: 22px;
 	}
-}
+}*/
 
 .no-gutter > [class*='col-'] {
 	padding-right: 0;
@@ -298,6 +299,17 @@ hr {
 
 @media (min-width:768px) {
 	.modal .modal-dialog { width: 75%;}
+}
+
+@media (min-width:1025px) {
+	.modal .modal-dialog { width: 75%;}
+
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+		font-size: 16px;
+	}
+	.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+		font-size: 22px;
+	}
 
 	#logo {
 		font-size: 4.0em;
