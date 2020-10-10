@@ -93,6 +93,29 @@ hr {
 	margin-bottom: -15px;
 }
 
+.reveal {
+  height:2px;
+  width: 600px;
+  border-top: 2px
+  solid #00ccff;
+  animation-name: reveal;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 3s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+
+@keyframes reveal {
+  0% {
+    width: 0px;
+  },
+  100% {
+    width: 600px;
+  }
+}
+
 #sublogo {
 	font-size: 1.8em;
 	font-weight: 200!important;
