@@ -2,869 +2,791 @@
 <html lang="en">
 
 <head>
-	<title>James Callow | Software Engineer | Tokyo, Japan</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>James Callow | Software Engineer | Tokyo, Japan</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<!-- CSS -->
-	<link href='https://fonts.googleapis.com/css?family=Arimo:400,400italic,700,700italic' rel='stylesheet'
-		type='text/css'>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/scrolling-nav.css">
-	<link rel="stylesheet" href="css/style.css">
+    <!-- CSS -->
+    <link href='https://fonts.googleapis.com/css?family=Arimo:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/scrolling-nav.css">
+    <link rel="stylesheet" href="css/style.css">
 
-	<!-- Scripts -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-	<script src="js/fade.js"></script>
-	<script src="js/parallax.js"></script>
-	<script src="js/scrolling-nav.js"></script>
-	<script src="js/jquery.easing.min.js"></script>
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="js/fade.js"></script>
+    <script src="js/parallax.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
 
-	<!-- Google Analytics-->
-	<script>
-		(function (i, s, o, g, r, a, m) {
-			i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-				(i[r].q = i[r].q || []).push(arguments)
-			}, i[r].l = 1 * new Date(); a = s.createElement(o),
-				m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    <!-- Google Analytics-->
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-		ga('create', 'UA-80130309-1', 'auto');
-		ga('send', 'pageview');
-	</script>
+        ga('create', 'UA-80130309-1', 'auto');
+        ga('send', 'pageview');
+    </script>
 
-	<!-- Domain Insights -->
-	<meta property="fb:admins" content="100003473195742" />
+    <!-- Domain Insights -->
+    <meta property="fb:admins" content="100003473195742" />
 
-	<!-- Social Media Sharing Meta -->
-	<meta property="og:url" content="https://callowjames.com" />
-	<meta property="og:type" content="website" />
-	<meta property="og:title" content="James Callow" />
-	<meta property="og:description" content="Software Developer living in Tokyo, Japan." />
-	<meta property="og:image" content="https://callowjames.com/images/thumbnail-1280.jpg" />
+    <!-- Social Media Sharing Meta -->
+    <meta property="og:url" content="https://callowjames.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="James Callow" />
+    <meta property="og:description" content="Software Developer living in Tokyo, Japan." />
+    <meta property="og:image" content="https://callowjames.com/images/thumbnail-1280.webp" />
 
-	<!-- Favicon -->
-	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-	<!-- Navigation -->
-	<div id="custom-nav" class="navbar navbar-default transparent navbar-fixed-top" role="navigation">
-		<div class="container">
-			<div class="navbar-header page-scroll">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+    <!-- Navigation -->
+    <div id="custom-nav" class="navbar navbar-default transparent navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand page-scroll" href="#page-top" style="font-size: 25px">James Callow</a>
-			</div>
+                <a class="navbar-brand page-scroll" href="#page-top" style="font-size: 25px">James Callow</a>
+            </div>
 
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse navbar-ex1-collapse">
-				<ul class="nav navbar-nav navbar-right">
-					<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-					<li class="hidden">
-						<a class="page-scroll" href="#page-top"></a>
-					</li>
-					<li>
-						<a class="page-scroll" href="#about">About</a>
-					</li>
-					<li>
-						<a class="page-scroll" href="#portfolio">Portfolio</a>
-					</li>
-					<li>
-						<a class="page-scroll" href="#contact">Contact</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
-	<!-- Section 1 -->
-	<section id="intro" class="parallax" data-speed="2" data-type="background">
-		<div id="introCon" class="container">
-			<div id="logoSet">
-				<div id="logoFade">
-					<h1 id="logo">Hi, I'm James Callow.</h1>
-					<hr id="logoRule" style="height:2px; width:275px; border-top: 2px solid #00ccff">
-					<h2 id="sublogo">Software Engineer living in Tokyo, Japan.</h2>
-				</div>
-			</div>
-		</div>
-		<div id="arrowdown">
-			<p><a class="page-scroll" href="#about"><span class="glyphicon glyphicon-chevron-down" aria-hidden="true"
+    <!-- Section 1 -->
+    <section id="intro" class="parallax" data-speed="2" data-type="background">
+        <div id="introCon" class="container">
+            <div id="logoSet">
+                <div id="logoFade">
+                    <h1 id="logo">Hi, I'm James Callow.</h1>
+                    <hr id="logoRule" style="height:2px; width:275px; border-top: 2px solid #00ccff">
+                    <h2 id="sublogo">Software Engineer living in Tokyo, Japan.</h2>
+                </div>
+            </div>
+        </div>
+        <div id="arrowdown">
+            <p><a class="page-scroll" href="#about"><span class="glyphicon glyphicon-chevron-down" aria-hidden="true"
 						style="color:#FFF;font-size:4.0em"></span></a></p>
-		</div>
-	</section>
+        </div>
+    </section>
 
-	<!-- Section 2 -->
-	<section id="about">
-		<div class="title">
-			<p>About</p>
-		</div>
-		<div class="container">
-			<p>
-				I am a graduate of the Computer Programmer Analyst program at Niagara College. During my time at the
-				college, I had many opportunities to expand my knowledge of various programming languages. Projects
-				encompassing designing websites to programming mobile applications, as well as a co-op position in
-				software engineering, have allowed me to attain a wide range of development skills.
-			</p>
-			<p>
-				For my co-op work term, I had the opportunity to work as a software engineer at the IBM Toronto
-				Laboratory. I was a member of the DB2 Compiler Continuous Engineering team for 16 months, where I was
-				involved in the design, testing, and implementation of new feature requirements for IBM's DB2 relational
-				database server.
-			</p>
-		</div>
-	</section>
+    <!-- Section 2 -->
+    <section id="about">
+        <div class="title">
+            <p>About</p>
+        </div>
+        <div class="container">
+            <p>
+                I am a graduate of the Computer Programmer Analyst program at Niagara College. During my time at the college, I had many opportunities to expand my knowledge of various programming languages. Projects encompassing designing websites to programming mobile
+                applications, as well as a co-op position in software engineering, have allowed me to attain a wide range of development skills.
+            </p>
+            <p>
+                For my co-op work term, I had the opportunity to work as a software engineer at the IBM Toronto Laboratory. I was a member of the DB2 Compiler Continuous Engineering team for 16 months, where I was involved in the design, testing, and implementation of
+                new feature requirements for IBM's DB2 relational database server.
+            </p>
+        </div>
+    </section>
 
-	<!-- Section 3 -->
-	<section id="quote" class="parallax" data-speed="6" data-type="background">
-		<div class="container">
-			<p><i>– "If you keep your destiny in mind, <b><span class="highlight">every moment</span></b> in life
+    <!-- Section 3 -->
+    <section id="quote" class="parallax" data-speed="6" data-type="background">
+        <div class="container">
+            <p><i>– "If you keep your destiny in mind, <b><span class="highlight">every moment</span></b> in life
 					becomes an <b><span class="highlight">opportunity</span></b> for moving closer to it."</i></p>
-		</div>
-	</section>
+        </div>
+    </section>
 
-	<!-- Section 4 -->
-	<section id="portfolio" class="no-padding">
-		<div class="title">
-			<p>Portfolio</p>
-		</div>
-		<div class="container">
-			<p>I build websites (such as this one), develop desktop and mobile applications, as well as design 3D models
-				and animation.</p>
-			<br>
-		</div>
-		<div class="container-fluid">
-			<div class="row no-gutter">
-
+    <!-- Section 4 -->
+    <section id="portfolio" class="no-padding">
+        <div class="title">
+            <p>Portfolio</p>
+        </div>
+        <div class="container">
+            <p>I build websites (such as this one), develop desktop and mobile applications, as well as design 3D models and animation.</p>
+            <br>
+        </div>
+        <div class="container-fluid">
+            <div class="row no-gutter">
 
 
-				<div class="col-lg-4 col-sm-6">
-					<a data-toggle="modal" href="#rgc" class="portfolio-box">
-						<img src="images/thumbnails/gora-rgc.jpg" class="img-responsive" alt="">
-						<div class="portfolio-box-caption">
-							<div class="portfolio-box-caption-content">
-								<div class="project-category text-faded">
-									Software Engineering
-								</div>
-								<div class="project-name">
-									Rakuten Golf Club
-								</div>
-							</div>
-						</div>
-					</a>
-					<!-- Modal -->
-					<div class="modal fade" id="rgc" role="dialog">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-header">
-									<button type="button" class="close" data-dismiss="modal">&times;</button>
-									<h3>Rakuten Golf Club</h3>
-								</div>
-								<img src="images/gora-rgc.jpg" class="img-responsive" alt="">
-								<div class="modal-body">
-									<div class="row">
-										<div class="col-sm-4">
-											<h4>Description</h4>
-											<p>
-												While leading a team of engineers both in-house and offshore, and
-												collaborating with other services such as RaCoupon, Rakuten Insurance,
-												and Rakuten Pay, I drove the development of Rakuten’s golf reservation
-												site’s first paid membership service, Rakuten Golf Club (RGC). With an
-												RGC subscription, members can receive benefits at over 1,900 golf
-												courses throughout Japan. As a result of the project’s success, I was
-												awarded with the Most Impressive Person Award in my department (size:
-												~130), followed by the Rakuten Award in the company (size: ~17,000).
-											</p>
-										</div>
-										<div class="col-sm-4">
-											<h4>Challenges</h4>
-											<p>
-												With Rakuten Golf Club, we wanted to start creating a new microservice
-												architecture alongside our current monolithic system. This gave us a
-												chance to formulate new coding standards and reorganize our data into
-												new database schemas. Coordinating with the other various Rakuten
-												services involved and our offshore team members for development tested
-												my communication and project management skills.
-											</p>
-										</div>
-										<div class="col-sm-4">
-											<h4>Technologies</h4>
-											<ul>
-												<li>CentOS</li>
-												<li>Laravel</li>
-												<li>Linux</li>
-												<li>Lumen</li>
-												<li>MySQL</li>
-												<li>PHP</li>
-												<li>Vagrant</li>
-											</ul>
-										</div>
-									</div>
-									<!--end row-->
-								</div>
-								<!--end modal body-->
-								<div class="modal-footer">
-									<p>Link to website: <a href="https://gora.golf.rakuten.co.jp/rgc/"
-											target="blank">https://gora.golf.rakuten.co.jp/rgc/</a></p>
-								</div>
-								<!--end footer-->
-							</div>
-						</div>
-					</div>
-					<!--end modal-->
-				</div>
 
-				<div class="col-lg-4 col-sm-6">
-					<a data-toggle="modal" href="#sgc" class="portfolio-box">
-						<img src="images/thumbnails/gora-sgc.jpg" class="img-responsive" alt="">
-						<div class="portfolio-box-caption">
-							<div class="portfolio-box-caption-content">
-								<div class="project-category text-faded">
-									Software Engineering
-								</div>
-								<div class="project-name">
-									Rakuten SGC
-								</div>
-							</div>
-						</div>
-					</a>
-					<!-- Modal -->
-					<div class="modal fade" id="sgc" role="dialog">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-header">
-									<button type="button" class="close" data-dismiss="modal">&times;</button>
-									<h3>Rakuten SGC</h3>
-								</div>
-								<img src="images/gora-sgc.jpg" class="img-responsive" alt="">
-								<div class="modal-body">
-									<div class="row">
-										<div class="col-sm-4">
-											<h4>Description</h4>
-											<p>
-												Rakuten Sponichi Golfers Club (SGC) is a premium golf membership service
-												in Rakuten GORA. As a service acquired by Rakuten, our team was
-												responsible for transforming the obtained system and serving it through
-												our newly developed microservice architecture. We allowed their already
-												existing customer base to seamlessly transition to our new platform.
-											</p>
-										</div>
-										<div class="col-sm-4">
-											<h4>Challenges</h4>
-											<p>
-												As this was an acquired service, we needed to thoroughly analyze their
-												existing data and system behaviour. By utilizing JSON type columns in
-												MySQL, we were able to design dynamic table schemas allowing us to
-												smoothly combine our data set with theirs. Familiarizing myself with
-												Kafka and Maxwell while implementing consumers and producers was a new
-												experience for me. We utilized Couchbase's JSON document storage in
-												order to provide high performance search APIs.
-											</p>
-										</div>
-										<div class="col-sm-4">
-											<h4>Technologies</h4>
-											<ul>
-												<li>Apache Kafka</li>
-												<li>CentOS</li>
-												<li>Couchbase</li>
-												<li>Laravel</li>
-												<li>Linux</li>
-												<li>Lumen</li>
-												<li>Maxwell's daemon</li>
-												<li>MySQL</li>
-												<li>PHP</li>
-											</ul>
-										</div>
-									</div>
-									<!--end row-->
-								</div>
-								<!--end modal body-->
-								<div class="modal-footer">
-									<p>Link to website: <a href="https://premium.golf.rakuten.co.jp"
-											target="blank">https://premium.golf.rakuten.co.jp</a></p>
-								</div>
-								<!--end footer-->
-							</div>
-						</div>
-					</div>
-					<!--end modal-->
-				</div>
+                <div class="col-lg-4 col-sm-6">
+                    <a data-toggle="modal" href="#rgc" class="portfolio-box">
+                        <img src="images/thumbnails/gora-rgc.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Software Engineering
+                                </div>
+                                <div class="project-name">
+                                    Rakuten Golf Club
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="rgc" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h3>Rakuten Golf Club</h3>
+                                </div>
+                                <img src="images/gora-rgc.webp" class="img-responsive" alt="">
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <h4>Description</h4>
+                                            <p>
+                                                While leading a team of engineers both in-house and offshore, and collaborating with other services such as RaCoupon, Rakuten Insurance, and Rakuten Pay, I drove the development of Rakuten’s golf reservation site’s first paid membership service, Rakuten
+                                                Golf Club (RGC). With an RGC subscription, members can receive benefits at over 1,900 golf courses throughout Japan. As a result of the project’s success, I was awarded with the Most Impressive Person Award
+                                                in my department (size: ~130), followed by the Rakuten Award in the company (size: ~17,000).
+                                            </p>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h4>Challenges</h4>
+                                            <p>
+                                                With Rakuten Golf Club, we wanted to start creating a new microservice architecture alongside our current monolithic system. This gave us a chance to formulate new coding standards and reorganize our data into new database schemas. Coordinating with the
+                                                other various Rakuten services involved and our offshore team members for development tested my communication and project management skills.
+                                            </p>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h4>Technologies</h4>
+                                            <ul>
+                                                <li>CentOS</li>
+                                                <li>Laravel</li>
+                                                <li>Linux</li>
+                                                <li>Lumen</li>
+                                                <li>MySQL</li>
+                                                <li>PHP</li>
+                                                <li>Vagrant</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!--end row-->
+                                </div>
+                                <!--end modal body-->
+                                <div class="modal-footer">
+                                    <p>Link to website: <a href="https://gora.golf.rakuten.co.jp/rgc/" target="blank">https://gora.golf.rakuten.co.jp/rgc/</a></p>
+                                </div>
+                                <!--end footer-->
+                            </div>
+                        </div>
+                    </div>
+                    <!--end modal-->
+                </div>
 
-				<div class="col-lg-4 col-sm-6">
-					<a data-toggle="modal" href="#bet" class="portfolio-box">
-						<img src="images/thumbnails/arb-labs.jpg" class="img-responsive" alt="">
-						<div class="portfolio-box-caption">
-							<div class="portfolio-box-caption-content">
-								<div class="project-category text-faded">
-									Software Engineering
-								</div>
-								<div class="project-name">
-									Bet Recognition
-								</div>
-							</div>
-						</div>
-					</a>
-					<!-- Modal -->
-					<div class="modal fade" id="bet" role="dialog">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-header">
-									<button type="button" class="close" data-dismiss="modal">&times;</button>
-									<h3>Bet Recognition</h3>
-								</div>
-								<img src="images/arb-labs.jpg" class="img-responsive" alt="">
-								<div class="modal-body">
-									<div class="row">
-										<div class="col-sm-4">
-											<h4>Description</h4>
-											<p>
-												ARB Labs' bet recognition technology provides Casino operators accurate
-												player ratings in real time as well as the ability to monitor game
-												performance. Analytics are generated for some of the most popular casino
-												table games such as Blackjack, Baccarat, and Carnival Games. I
-												collaborated alongside a team of developers to design, develop, unit
-												test, and support new features. I also maintained and modified programs;
-												made approved changes by developing detailed programming logic and
-												coding changes.
-											</p>
-										</div>
-										<div class="col-sm-4">
-											<h4>Challenges</h4>
-											<p>
-												Being part of a small company, I had the opportunity to work closely
-												with all members of the team. I collaborated with hardware engineers
-												obtaining some additional hands-on experience with computer systems and
-												components. I also had the opportunity to give demo presentations
-												highlighting key product features to potential and existing
-												stakeholders.
-											</p>
-										</div>
-										<div class="col-sm-4">
-											<h4>Technologies</h4>
-											<ul>
-												<li>Linux</li>
-												<li>Node.js</li>
-												<li>npm</li>
-												<li>NumPy</li>
-												<li>OpenCV</li>
-												<li>pySerial</li>
-												<li>Python</li>
-												<li>RabbitMQ</li>
-												<li>Ubuntu</li>
-											</ul>
-										</div>
-									</div>
-									<!--end row-->
-								</div>
-								<!--end modal body-->
-								<div class="modal-footer">
-									<p>Link to website: <a href="https://www.chipvue.com"
-											target="blank">https://www.chipvue.com</a></p>
-								</div>
-								<!--end footer-->
-							</div>
-						</div>
-					</div>
-					<!--end modal-->
-				</div>
+                <div class="col-lg-4 col-sm-6">
+                    <a data-toggle="modal" href="#sgc" class="portfolio-box">
+                        <img src="images/thumbnails/gora-sgc.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Software Engineering
+                                </div>
+                                <div class="project-name">
+                                    Rakuten SGC
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="sgc" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h3>Rakuten SGC</h3>
+                                </div>
+                                <img src="images/gora-sgc.webp" class="img-responsive" alt="">
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <h4>Description</h4>
+                                            <p>
+                                                Rakuten Sponichi Golfers Club (SGC) is a premium golf membership service in Rakuten GORA. As a service acquired by Rakuten, our team was responsible for transforming the obtained system and serving it through our newly developed microservice architecture.
+                                                We allowed their already existing customer base to seamlessly transition to our new platform.
+                                            </p>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h4>Challenges</h4>
+                                            <p>
+                                                As this was an acquired service, we needed to thoroughly analyze their existing data and system behaviour. By utilizing JSON type columns in MySQL, we were able to design dynamic table schemas allowing us to smoothly combine our data set with theirs.
+                                                Familiarizing myself with Kafka and Maxwell while implementing consumers and producers was a new experience for me. We utilized Couchbase's JSON document storage in order to provide high performance search
+                                                APIs.
+                                            </p>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h4>Technologies</h4>
+                                            <ul>
+                                                <li>Apache Kafka</li>
+                                                <li>CentOS</li>
+                                                <li>Couchbase</li>
+                                                <li>Laravel</li>
+                                                <li>Linux</li>
+                                                <li>Lumen</li>
+                                                <li>Maxwell's daemon</li>
+                                                <li>MySQL</li>
+                                                <li>PHP</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!--end row-->
+                                </div>
+                                <!--end modal body-->
+                                <div class="modal-footer">
+                                    <p>Link to website: <a href="https://premium.golf.rakuten.co.jp" target="blank">https://premium.golf.rakuten.co.jp</a></p>
+                                </div>
+                                <!--end footer-->
+                            </div>
+                        </div>
+                    </div>
+                    <!--end modal-->
+                </div>
+
+                <div class="col-lg-4 col-sm-6">
+                    <a data-toggle="modal" href="#bet" class="portfolio-box">
+                        <img src="images/thumbnails/arb-labs.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Software Engineering
+                                </div>
+                                <div class="project-name">
+                                    Bet Recognition
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="bet" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h3>Bet Recognition</h3>
+                                </div>
+                                <img src="images/arb-labs.webp" class="img-responsive" alt="">
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <h4>Description</h4>
+                                            <p>
+                                                ARB Labs' bet recognition technology provides Casino operators accurate player ratings in real time as well as the ability to monitor game performance. Analytics are generated for some of the most popular casino table games such as Blackjack, Baccarat,
+                                                and Carnival Games. I collaborated alongside a team of developers to design, develop, unit test, and support new features. I also maintained and modified programs; made approved changes by developing detailed
+                                                programming logic and coding changes.
+                                            </p>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h4>Challenges</h4>
+                                            <p>
+                                                Being part of a small company, I had the opportunity to work closely with all members of the team. I collaborated with hardware engineers obtaining some additional hands-on experience with computer systems and components. I also had the opportunity to
+                                                give demo presentations highlighting key product features to potential and existing stakeholders.
+                                            </p>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h4>Technologies</h4>
+                                            <ul>
+                                                <li>Linux</li>
+                                                <li>Node.js</li>
+                                                <li>npm</li>
+                                                <li>NumPy</li>
+                                                <li>OpenCV</li>
+                                                <li>pySerial</li>
+                                                <li>Python</li>
+                                                <li>RabbitMQ</li>
+                                                <li>Ubuntu</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!--end row-->
+                                </div>
+                                <!--end modal body-->
+                                <div class="modal-footer">
+                                    <p>Link to website: <a href="https://www.chipvue.com" target="blank">https://www.chipvue.com</a></p>
+                                </div>
+                                <!--end footer-->
+                            </div>
+                        </div>
+                    </div>
+                    <!--end modal-->
+                </div>
 
 
-				<div class="col-lg-4 col-sm-6">
-					<a data-toggle="modal" href="#db2" class="portfolio-box">
-						<img src="images/thumbnails/ibm-toronto-lab.jpg" class="img-responsive" alt="">
-						<div class="portfolio-box-caption">
-							<div class="portfolio-box-caption-content">
-								<div class="project-category text-faded">
-									Software Engineering
-								</div>
-								<div class="project-name">
-									IBM DB2
-								</div>
-							</div>
-						</div>
-					</a>
-					<!-- Modal -->
-					<div class="modal fade" id="db2" role="dialog">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-header">
-									<button type="button" class="close" data-dismiss="modal">&times;</button>
-									<h3>IBM DB2</h3>
-								</div>
-								<img src="images/ibm-toronto-lab.jpg" class="img-responsive" alt="">
-								<div class="modal-body">
-									<div class="row">
-										<div class="col-sm-4">
-											<h4>Description</h4>
-											<p>
-												For my co-op work term, I had the opportunity to work at IBM Canada Ltd.
-												as a DB2 Continuous Engineering Developer. During my time at IBM, I took
-												part in the design, testing, and implementation of Shadow tables. Shadow
-												tables are column-organized copies of row-organized tables, implemented
-												as materialized query tables (MQTs) maintained by replication. This
-												allows users to get the performance benefits of BLU acceleration for
-												analytic queries in an OLTP environment.
-											</p>
-										</div>
-										<div class="col-sm-4">
-											<h4>Challenges</h4>
-											<p>
-												Learnt to navigate through the millions of lines of code and thousands
-												of code files for debugging and implementation. Collaborated on projects
-												alongside fellow developers located in different countries around the
-												world.
-											</p>
-										</div>
-										<div class="col-sm-4">
-											<h4>Technologies</h4>
-											<ul>
-												<li>C/C++</li>
-												<li>Clearcase</li>
-												<li>DB2 LUW</li>
-												<li>Emacs</li>
-												<li>Hummingbird Exceed</li>
-												<li>Linux</li>
-												<li>Perl</li>
-												<li>Shell-scripting</li>
-												<li>SQL</li>
-												<li>TotalView</li>
-												<li>Unix</li>
-												<li>VNC Viewer</li>
-												<li>Windows</li>
-											</ul>
-										</div>
-									</div>
-									<!--end row-->
-								</div>
-								<!--end modal body-->
-								<div class="modal-footer">
-									<p>Link to video: <a href="https://youtu.be/b0FlDZEhL1w"
-											target="blank">https://youtu.be/b0FlDZEhL1w</a></p>
-								</div>
-								<!--end footer-->
-							</div>
-						</div>
-					</div>
-					<!--end modal-->
-				</div>
-				<div class="col-lg-4 col-sm-6">
-					<a data-toggle="modal" href="#katana" class="portfolio-box">
-						<img src="images/thumbnails/katana.jpg" class="img-responsive" alt="">
-						<div class="portfolio-box-caption">
-							<div class="portfolio-box-caption-content">
-								<div class="project-category text-faded">
-									3D Modeling
-								</div>
-								<div class="project-name">
-									Japanese Katana
-								</div>
-							</div>
-						</div>
-					</a>
-					<!-- Modal -->
-					<div class="modal fade" id="katana" role="dialog">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-header">
-									<button type="button" class="close" data-dismiss="modal">&times;</button>
-									<h3>Japanese Katana</h3>
-								</div>
-								<img src="images/katana1.jpg" class="img-responsive" alt="">
-								<div class="modal-body">
-									<div class="row">
-										<div class="col-sm-4">
-											<h4>Description</h4>
-											<p>
-												The goal of this project was to create a photorealistic object in 3D. I
-												used the industry standard software Autodesk 3ds Max to create a
-												Japanese Katana. This put my knowledge of navigating the software
-												interface as well as my low/high poly 3D modelling skills to the test.
-											</p>
-										</div>
-										<div class="col-sm-4">
-											<h4>Challenges</h4>
-											<p>
-												Being able to create a visually realistic Katana sword was challenging
-												for me. I had to ensure that the proportions of the sword were accurate.
-												It took some fine tweaking to get the lighting and reflections in the
-												scene just right. These adjustments added value to the overall realism.
-											</p>
-										</div>
-										<div class="col-sm-4">
-											<h4>Technologies</h4>
-											<ul>
-												<li>Adobe Photoshop</li>
-												<li>Autodesk 3ds Max</li>
-											</ul>
-										</div>
-									</div>
-									<!--end row-->
-								</div>
-								<!--end modal body-->
-								<div class="modal-footer">
-									<p>Link to gallery: <a href="https://goo.gl/photos/anEPeyB3C6XepZZf7"
-											target="blank">https://goo.gl/photos/anEPeyB3C6XepZZf7</a></p>
-								</div>
-								<!--end footer-->
-							</div>
-						</div>
-					</div>
-					<!--end modal-->
-				</div>
-				<div class="col-lg-4 col-sm-6">
-					<a data-toggle="modal" href="#ico" class="portfolio-box">
-						<img src="images/thumbnails/ico.jpg" class="img-responsive" alt="">
-						<div class="portfolio-box-caption">
-							<div class="portfolio-box-caption-content">
-								<div class="project-category text-faded">
-									Web Design
-								</div>
-								<div class="project-name">
-									ICO
-								</div>
-							</div>
-						</div>
-					</a>
-					<!-- Modal -->
-					<div class="modal fade" id="ico" role="dialog">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-header">
-									<button type="button" class="close" data-dismiss="modal">&times;</button>
-									<h3>ICO</h3>
-								</div>
-								<img src="images/ico.jpg" class="img-responsive" alt="">
-								<div class="modal-body">
-									<div class="row">
-										<div class="col-sm-4">
-											<h4>Description</h4>
-											<p>
-												This was a website that I built about one of my favourite video games
-												with a focus on front-end development. I began by designing what I
-												wanted the site to look like in Photoshop, and then translated the
-												conceptual design into code. This approach allowed me to be freely
-												creative with how I wanted the site to look, and it also gave me a clear
-												plan as to how I should develop it for the web.
-											</p>
-										</div>
-										<div class="col-sm-4">
-											<h4>Challenges</h4>
-											<p>
-												Being able to translate the concept design I created in Photoshop into
-												code was a bit of a challenge. I was able to replicate the design
-												completely in the end, however during development I decided to alter a
-												few of my design choices to enhance the visual presentation.
-											</p>
-										</div>
-										<div class="col-sm-4">
-											<h4>Technologies</h4>
-											<ul>
-												<li>Adobe Photoshop</li>
-												<li>CSS/CSS3</li>
-												<li>HTML/HTML5</li>
-											</ul>
-										</div>
-									</div>
-									<!--end row-->
-								</div>
-								<!--end modal body-->
-								<div class="modal-footer">
-									<p>Link to website: <a href="https://callowjames.com/ico/index.html"
-											target="blank">https://callowjames.com/ico/index.html</a></p>
-								</div>
-								<!--end footer-->
-							</div>
-						</div>
-					</div>
-					<!--end modal-->
-				</div>
-				<div class="col-lg-4 col-sm-6">
-					<a data-toggle="modal" href="#warm" class="portfolio-box">
-						<img src="images/thumbnails/warm.jpg" class="img-responsive" alt="">
-						<div class="portfolio-box-caption">
-							<div class="portfolio-box-caption-content">
-								<div class="project-category text-faded">
-									Software Development
-								</div>
-								<div class="project-name">
-									WARM
-								</div>
-							</div>
-						</div>
-					</a>
-					<!-- Modal -->
-					<div class="modal fade" id="warm" role="dialog">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-header">
-									<button type="button" class="close" data-dismiss="modal">&times;</button>
-									<h3>WARM</h3>
-								</div>
-								<img src="images/warm.jpg" class="img-responsive" alt="">
-								<div class="modal-body">
-									<div class="row">
-										<div class="col-sm-4">
-											<h4>Description</h4>
-											<p>
-												I had the opportunity to work with a team of fellow classmates on
-												designing a desktop application for a Women’s shelter. The non-profit
-												organization decided that they wanted to go paperless and adopt a
-												digital system. While working closely with our client, we analyzed,
-												designed, and developed prototypes for implementation. The end result
-												was an integrated, tested, and fully functional application that we
-												handed over to the project stakeholders.
-											</p>
-										</div>
-										<div class="col-sm-4">
-											<h4>Challenges</h4>
-											<p>
-												We had no prior experience in developing with Microsoft Access. Although
-												we could have developed the system using other technologies in which we
-												were familiar with, we knew that our client had a desire for an Access
-												application. We had to learn the platform quickly in order to deliver
-												the system to our client in a timely manner.
-											</p>
-										</div>
-										<div class="col-sm-4">
-											<h4>Technologies</h4>
-											<ul>
-												<li>Microsoft Access</li>
-												<li>SQL</li>
-												<li>VBA</li>
-											</ul>
-										</div>
-									</div>
-									<!--end row-->
-								</div>
-								<!--end modal body-->
-								<div class="modal-footer">
-									<p>Link to gallery: <a href="https://goo.gl/photos/en683csMpuyBqvMr9"
-											target="blank">https://goo.gl/photos/en683csMpuyBqvMr9</a></p>
-								</div>
-								<!--end footer-->
-							</div>
-						</div>
-					</div>
-					<!--end modal-->
-				</div>
-				<div class="col-lg-4 col-sm-6">
-					<a data-toggle="modal" href="#ironwood" class="portfolio-box">
-						<img src="images/thumbnails/ironwood.jpg" class="img-responsive" alt="">
-						<div class="portfolio-box-caption">
-							<div class="portfolio-box-caption-content">
-								<div class="project-category text-faded">
-									Rapid Application Development
-								</div>
-								<div class="project-name">
-									Ironwood University
-								</div>
-							</div>
-						</div>
-					</a>
-					<!-- Modal -->
-					<div class="modal fade" id="ironwood" role="dialog">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-header">
-									<button type="button" class="close" data-dismiss="modal">&times;</button>
-									<h3>Ironwood University</h3>
-								</div>
-								<img src="images/ironwood.jpg" class="img-responsive" alt="">
-								<div class="modal-body">
-									<div class="row">
-										<div class="col-sm-4">
-											<h4>Description</h4>
-											<p>
-												Designed and developed a university web-based application for course
-												lookup, management, adding new courses and reporting. This was a team
-												project that I completed with 3 of my fellow classmates.
-											</p>
-										</div>
-										<div class="col-sm-4">
-											<h4>Challenges</h4>
-											<p>
-												This was a fairly large project that required a lot of time and effort.
-												My teammates and I collaborated as well as had individually assigned
-												tasks in order to reach our goal. It also had to be built within a very
-												tight deadline, so I needed to manage my time as efficiently as
-												possible.
-											</p>
-										</div>
-										<div class="col-sm-4">
-											<h4>Technologies</h4>
-											<ul>
-												<li>ASP.NET</li>
-												<li>C#</li>
-												<li>Crystal Reports</li>
-												<li>Microsoft SQL Server 2008</li>
-												<li>Microsoft Visual Studio</li>
-												<li>SQL</li>
-											</ul>
-										</div>
-									</div>
-									<!--end row-->
-								</div>
-								<!--end modal body-->
-								<div class="modal-footer">
-									<p>Link to gallery: <a href="https://goo.gl/photos/Ngwm8548GBnen3U2A"
-											target="blank">https://goo.gl/photos/Ngwm8548GBnen3U2A</a></p>
-								</div>
-								<!--end footer-->
-							</div>
-						</div>
-					</div>
-					<!--end modal-->
-				</div>
-				<div class="col-lg-4 col-sm-6">
-					<a data-toggle="modal" href="#tron" class="portfolio-box">
-						<img src="images/thumbnails/tron.jpg" class="img-responsive" alt="">
-						<div class="portfolio-box-caption">
-							<div class="portfolio-box-caption-content">
-								<div class="project-category text-faded">
-									3D Animation
-								</div>
-								<div class="project-name">
-									TRON Logo
-								</div>
-							</div>
-						</div>
-					</a>
-					<!-- Modal -->
-					<div class="modal fade" id="tron" role="dialog">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-header">
-									<button type="button" class="close" data-dismiss="modal">&times;</button>
-									<h3>TRON Logo</h3>
-								</div>
-								<img src="images/tron.jpg" class="img-responsive" alt="">
-								<div class="modal-body">
-									<div class="row">
-										<div class="col-sm-4">
-											<h4>Description</h4>
-											<p>
-												Designed and animated a moving logo inspired by Disney's TRON films.
-												Using Autodesk 3ds Max, I created materials and modelled the logo to
-												resemble the source material. Followed by lighting and rendering, I
-												added some key framing and path animation to control the position and
-												rotation of the object. Finally, I used Adobe After Effects to add some
-												final visual effects to complete the composition.
-											</p>
-										</div>
-										<div class="col-sm-4">
-											<h4>Challenges</h4>
-											<p>
-												It was challenging to figure out how I wanted to animate the object
-												initially. I wanted to create something simple and smooth, yet followed
-												the theme of the source material. I was quite happy with how it turned
-												out in the end.
-											</p>
-										</div>
-										<div class="col-sm-4">
-											<h4>Technologies</h4>
-											<ul>
-												<li>Adobe After Effects</li>
-												<li>Adobe Photoshop</li>
-												<li>Autodesk 3ds Max</li>
-											</ul>
-										</div>
-									</div>
-									<!--end row-->
-								</div>
-								<!--end modal body-->
-								<div class="modal-footer">
-									<p>Link to video: <a href="https://youtu.be/FSDtp0F0eCw"
-											target="blank">https://youtu.be/FSDtp0F0eCw</a></p>
-								</div>
-								<!--end footer-->
-							</div>
-						</div>
-					</div>
-				</div>
-				<!--end modal-->
-			</div>
-		</div>
-		<br>
-		<p>Download my résumé <a href="files/JamesCallow_Resume_2020.pdf" target="blank">here</a>.</p>
-	</section>
+                <div class="col-lg-4 col-sm-6">
+                    <a data-toggle="modal" href="#db2" class="portfolio-box">
+                        <img src="images/thumbnails/ibm-toronto-lab.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Software Engineering
+                                </div>
+                                <div class="project-name">
+                                    IBM DB2
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="db2" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h3>IBM DB2</h3>
+                                </div>
+                                <img src="images/ibm-toronto-lab.webp" class="img-responsive" alt="">
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <h4>Description</h4>
+                                            <p>
+                                                For my co-op work term, I had the opportunity to work at IBM Canada Ltd. as a DB2 Continuous Engineering Developer. During my time at IBM, I took part in the design, testing, and implementation of Shadow tables. Shadow tables are column-organized copies
+                                                of row-organized tables, implemented as materialized query tables (MQTs) maintained by replication. This allows users to get the performance benefits of BLU acceleration for analytic queries in an OLTP environment.
+                                            </p>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h4>Challenges</h4>
+                                            <p>
+                                                Learnt to navigate through the millions of lines of code and thousands of code files for debugging and implementation. Collaborated on projects alongside fellow developers located in different countries around the world.
+                                            </p>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h4>Technologies</h4>
+                                            <ul>
+                                                <li>C/C++</li>
+                                                <li>Clearcase</li>
+                                                <li>DB2 LUW</li>
+                                                <li>Emacs</li>
+                                                <li>Hummingbird Exceed</li>
+                                                <li>Linux</li>
+                                                <li>Perl</li>
+                                                <li>Shell-scripting</li>
+                                                <li>SQL</li>
+                                                <li>TotalView</li>
+                                                <li>Unix</li>
+                                                <li>VNC Viewer</li>
+                                                <li>Windows</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!--end row-->
+                                </div>
+                                <!--end modal body-->
+                                <div class="modal-footer">
+                                    <p>Link to video: <a href="https://youtu.be/b0FlDZEhL1w" target="blank">https://youtu.be/b0FlDZEhL1w</a></p>
+                                </div>
+                                <!--end footer-->
+                            </div>
+                        </div>
+                    </div>
+                    <!--end modal-->
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a data-toggle="modal" href="#katana" class="portfolio-box">
+                        <img src="images/thumbnails/katana.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    3D Modeling
+                                </div>
+                                <div class="project-name">
+                                    Japanese Katana
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="katana" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h3>Japanese Katana</h3>
+                                </div>
+                                <img src="images/katana1.webp" class="img-responsive" alt="">
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <h4>Description</h4>
+                                            <p>
+                                                The goal of this project was to create a photorealistic object in 3D. I used the industry standard software Autodesk 3ds Max to create a Japanese Katana. This put my knowledge of navigating the software interface as well as my low/high poly 3D modelling
+                                                skills to the test.
+                                            </p>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h4>Challenges</h4>
+                                            <p>
+                                                Being able to create a visually realistic Katana sword was challenging for me. I had to ensure that the proportions of the sword were accurate. It took some fine tweaking to get the lighting and reflections in the scene just right. These adjustments added
+                                                value to the overall realism.
+                                            </p>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h4>Technologies</h4>
+                                            <ul>
+                                                <li>Adobe Photoshop</li>
+                                                <li>Autodesk 3ds Max</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!--end row-->
+                                </div>
+                                <!--end modal body-->
+                                <div class="modal-footer">
+                                    <p>Link to gallery: <a href="https://goo.gl/photos/anEPeyB3C6XepZZf7" target="blank">https://goo.gl/photos/anEPeyB3C6XepZZf7</a></p>
+                                </div>
+                                <!--end footer-->
+                            </div>
+                        </div>
+                    </div>
+                    <!--end modal-->
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a data-toggle="modal" href="#ico" class="portfolio-box">
+                        <img src="images/thumbnails/ico.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Web Design
+                                </div>
+                                <div class="project-name">
+                                    ICO
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="ico" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h3>ICO</h3>
+                                </div>
+                                <img src="images/ico.webp" class="img-responsive" alt="">
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <h4>Description</h4>
+                                            <p>
+                                                This was a website that I built about one of my favourite video games with a focus on front-end development. I began by designing what I wanted the site to look like in Photoshop, and then translated the conceptual design into code. This approach allowed
+                                                me to be freely creative with how I wanted the site to look, and it also gave me a clear plan as to how I should develop it for the web.
+                                            </p>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h4>Challenges</h4>
+                                            <p>
+                                                Being able to translate the concept design I created in Photoshop into code was a bit of a challenge. I was able to replicate the design completely in the end, however during development I decided to alter a few of my design choices to enhance the visual
+                                                presentation.
+                                            </p>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h4>Technologies</h4>
+                                            <ul>
+                                                <li>Adobe Photoshop</li>
+                                                <li>CSS/CSS3</li>
+                                                <li>HTML/HTML5</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!--end row-->
+                                </div>
+                                <!--end modal body-->
+                                <div class="modal-footer">
+                                    <p>Link to website: <a href="https://callowjames.com/ico/index.html" target="blank">https://callowjames.com/ico/index.html</a></p>
+                                </div>
+                                <!--end footer-->
+                            </div>
+                        </div>
+                    </div>
+                    <!--end modal-->
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a data-toggle="modal" href="#warm" class="portfolio-box">
+                        <img src="images/thumbnails/warm.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Software Development
+                                </div>
+                                <div class="project-name">
+                                    WARM
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="warm" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h3>WARM</h3>
+                                </div>
+                                <img src="images/warm.webp" class="img-responsive" alt="">
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <h4>Description</h4>
+                                            <p>
+                                                I had the opportunity to work with a team of fellow classmates on designing a desktop application for a Women’s shelter. The non-profit organization decided that they wanted to go paperless and adopt a digital system. While working closely with our client,
+                                                we analyzed, designed, and developed prototypes for implementation. The end result was an integrated, tested, and fully functional application that we handed over to the project stakeholders.
+                                            </p>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h4>Challenges</h4>
+                                            <p>
+                                                We had no prior experience in developing with Microsoft Access. Although we could have developed the system using other technologies in which we were familiar with, we knew that our client had a desire for an Access application. We had to learn the platform
+                                                quickly in order to deliver the system to our client in a timely manner.
+                                            </p>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h4>Technologies</h4>
+                                            <ul>
+                                                <li>Microsoft Access</li>
+                                                <li>SQL</li>
+                                                <li>VBA</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!--end row-->
+                                </div>
+                                <!--end modal body-->
+                                <div class="modal-footer">
+                                    <p>Link to gallery: <a href="https://goo.gl/photos/en683csMpuyBqvMr9" target="blank">https://goo.gl/photos/en683csMpuyBqvMr9</a></p>
+                                </div>
+                                <!--end footer-->
+                            </div>
+                        </div>
+                    </div>
+                    <!--end modal-->
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a data-toggle="modal" href="#ironwood" class="portfolio-box">
+                        <img src="images/thumbnails/ironwood.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Rapid Application Development
+                                </div>
+                                <div class="project-name">
+                                    Ironwood University
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="ironwood" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h3>Ironwood University</h3>
+                                </div>
+                                <img src="images/ironwood.webp" class="img-responsive" alt="">
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <h4>Description</h4>
+                                            <p>
+                                                Designed and developed a university web-based application for course lookup, management, adding new courses and reporting. This was a team project that I completed with 3 of my fellow classmates.
+                                            </p>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h4>Challenges</h4>
+                                            <p>
+                                                This was a fairly large project that required a lot of time and effort. My teammates and I collaborated as well as had individually assigned tasks in order to reach our goal. It also had to be built within a very tight deadline, so I needed to manage
+                                                my time as efficiently as possible.
+                                            </p>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h4>Technologies</h4>
+                                            <ul>
+                                                <li>ASP.NET</li>
+                                                <li>C#</li>
+                                                <li>Crystal Reports</li>
+                                                <li>Microsoft SQL Server 2008</li>
+                                                <li>Microsoft Visual Studio</li>
+                                                <li>SQL</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!--end row-->
+                                </div>
+                                <!--end modal body-->
+                                <div class="modal-footer">
+                                    <p>Link to gallery: <a href="https://goo.gl/photos/Ngwm8548GBnen3U2A" target="blank">https://goo.gl/photos/Ngwm8548GBnen3U2A</a></p>
+                                </div>
+                                <!--end footer-->
+                            </div>
+                        </div>
+                    </div>
+                    <!--end modal-->
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a data-toggle="modal" href="#tron" class="portfolio-box">
+                        <img src="images/thumbnails/tron.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    3D Animation
+                                </div>
+                                <div class="project-name">
+                                    TRON Logo
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="tron" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h3>TRON Logo</h3>
+                                </div>
+                                <img src="images/tron.webp" class="img-responsive" alt="">
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <h4>Description</h4>
+                                            <p>
+                                                Designed and animated a moving logo inspired by Disney's TRON films. Using Autodesk 3ds Max, I created materials and modelled the logo to resemble the source material. Followed by lighting and rendering, I added some key framing and path animation to
+                                                control the position and rotation of the object. Finally, I used Adobe After Effects to add some final visual effects to complete the composition.
+                                            </p>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h4>Challenges</h4>
+                                            <p>
+                                                It was challenging to figure out how I wanted to animate the object initially. I wanted to create something simple and smooth, yet followed the theme of the source material. I was quite happy with how it turned out in the end.
+                                            </p>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <h4>Technologies</h4>
+                                            <ul>
+                                                <li>Adobe After Effects</li>
+                                                <li>Adobe Photoshop</li>
+                                                <li>Autodesk 3ds Max</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!--end row-->
+                                </div>
+                                <!--end modal body-->
+                                <div class="modal-footer">
+                                    <p>Link to video: <a href="https://youtu.be/FSDtp0F0eCw" target="blank">https://youtu.be/FSDtp0F0eCw</a></p>
+                                </div>
+                                <!--end footer-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end modal-->
+            </div>
+        </div>
+        <br>
+        <p>Download my résumé <a href="files/JamesCallow_Resume_2020.pdf" target="blank">here</a>.</p>
+    </section>
 
-	<!-- Section 5 -->
-	<section id="motto" class="parallax" data-speed="4" data-type="background">
-		<div class="container">
-			<p>Developing software is more than a profession, it's my passion. Helping others realize their goals is
-				what I strive to accomplish.</p>
-		</div>
-	</section>
+    <!-- Section 5 -->
+    <section id="motto" class="parallax" data-speed="4" data-type="background">
+        <div class="container">
+            <p>Developing software is more than a profession, it's my passion. Helping others realize their goals is what I strive to accomplish.</p>
+        </div>
+    </section>
 
-	<!-- Section 6 -->
-	<section id="contact">
-		<div class="title">
-			<p>Contact Me</p>
-		</div>
-		<p style="margin-bottom: 20px;">Feel free to call or email me if you have any questions or concerns.</p>
-		<div class="container">
-			<div class="row">
-				<!-- Thanks to https://glyphicons.com for their sharp and clean symbols. -->
-				<div class="col-sm-4">
-					<p>
-						<span class="glyphicon glyphicon-earphone" aria-hidden="true"
-							style="font-size: 60px; color:#00ccff"></span>
-					</p>
-					<p>
-						<a href="tel:07041375625">070-4137-5625</a>
-					</p>
-				</div>
-				<div class="col-sm-4">
-					<p>
-						<span class="glyphicon glyphicon-envelope" aria-hidden="true"
-							style="font-size: 60px; color:#00ccff"></span>
-					</p>
-					<p>
-						<a href="mailto:callow.james@gmail.com">callow.james@gmail.com</a>
-					</p>
-				</div>
-				<div class="col-sm-4">
-					<p>
-						<span class="glyphicon glyphicon-map-marker" aria-hidden="true"
-							style="font-size: 60px; color:#00ccff"></span>
-					</p>
-					<p>
-						<a href="https://www.google.co.jp/maps/place/Tokyo/@35.6732619,139.570303,11z/data=!3m1!4b1!4m5!3m4!1s0x605d1b87f02e57e7:0x2e01618b22571b89!8m2!3d35.6894875!4d139.6917064?hl=en"
-							target="blank">Tokyo, Japan</a>
-					</p>
-				</div>
-			</div>
-		</div>
-		<div id="footer">
-			<p>Copyright &copy; 2021 James Callow, All rights reserved.</p>
-			<p>TOKYO, JAPAN.</p>
-		</div>
-		<div id="social">
-			<p>
-				<!-- Thanks to https://fortawesome.github.io/Font-Awesome/ for their awesome icons. -->
-				<a href="https://www.linkedin.com/in/james-callow-394a9245"><i class="fa fa-linkedin-square icon-white"
+    <!-- Section 6 -->
+    <section id="contact">
+        <div class="title">
+            <p>Contact Me</p>
+        </div>
+        <p style="margin-bottom: 20px;">Feel free to call or email me if you have any questions or concerns.</p>
+        <div class="container">
+            <div class="row">
+                <!-- Thanks to https://glyphicons.com for their sharp and clean symbols. -->
+                <div class="col-sm-4">
+                    <p>
+                        <span class="glyphicon glyphicon-earphone" aria-hidden="true" style="font-size: 60px; color:#00ccff"></span>
+                    </p>
+                    <p>
+                        <a href="tel:07041375625">070-4137-5625</a>
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <p>
+                        <span class="glyphicon glyphicon-envelope" aria-hidden="true" style="font-size: 60px; color:#00ccff"></span>
+                    </p>
+                    <p>
+                        <a href="mailto:callow.james@gmail.com">callow.james@gmail.com</a>
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <p>
+                        <span class="glyphicon glyphicon-map-marker" aria-hidden="true" style="font-size: 60px; color:#00ccff"></span>
+                    </p>
+                    <p>
+                        <a href="https://www.google.co.jp/maps/place/Tokyo/@35.6732619,139.570303,11z/data=!3m1!4b1!4m5!3m4!1s0x605d1b87f02e57e7:0x2e01618b22571b89!8m2!3d35.6894875!4d139.6917064?hl=en" target="blank">Tokyo, Japan</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <p>Copyright &copy; 2021 James Callow, All rights reserved.</p>
+            <p>TOKYO, JAPAN.</p>
+        </div>
+        <div id="social">
+            <p>
+                <!-- Thanks to https://fortawesome.github.io/Font-Awesome/ for their awesome icons. -->
+                <a href="https://www.linkedin.com/in/james-callow-394a9245"><i class="fa fa-linkedin-square icon-white"
 						aria-hidden="true"></i></a>
-			</p>
-		</div>
-	</section>
+            </p>
+        </div>
+    </section>
 </body>
 
 </html>
